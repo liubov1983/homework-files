@@ -48,7 +48,7 @@ def sort_text(text_one, text_two, text_three):
         text3 = file_three.readlines()
         text_dict[len(text3)] = [text_three, text3]
 
-    with open('task3.py', 'a', encoding='UTF-8') as file:
+    with open('task3.txt', 'a', encoding='UTF-8') as file:
         text_list = list(text_dict.keys())
         text_list.sort()
         for item in text_list:
